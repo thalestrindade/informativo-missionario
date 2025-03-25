@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Bra';
+    src: url(fontes/Brasilero2018Free.otf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'Cordel';
+    src: url(fontes/eldescordel.otf) format('opentype');
+    font-weight: normal; 
+}
+
+body{
+    background-image: url(midias/fundo.jpeg);
+}
+
+header{
+    /*background-image: linear-gradient(to bottom, #E6B370,#E6A045);*/
+    text-align:center;
+    background-color:white; /*#EDE977 #EBBD71*/
+    padding:7px;
+    margin:4px;
+    font-family:'Cordel';
+    color:#634f2e;
+    border-radius:10px;
+}
+
+header > h2{
+    font-family:'Bra';
+}
+
+nav{
+    text-align:left;
+}
+
+nav > a{
+    margin-right:20px;
+    text-decoration:none;
+    color:#634f2e;
+    padding:5px;
+}
+
+nav >a:hover{
+    text-decoration:underline;
+    transition-duration:0.5s;
+    background-color:#E4D5C0;
+    border-radius:5px;
+}
+
+main{
+    text-align:left;
+    background-color:white;
+    padding:7px;
+    border-radius:10px;
+    min-width:300px;
+    max-width:800px;
+    margin:auto;
+}
+
+main img.imagem{
+    display:block;
+    margin:auto;
+}
+    
+div.video{
+    background-color: #AF5836;
+    margin:0px -7px 30px -7px;
+    padding:20px;
+    padding-bottom:58%;
+    position:relative;
+}
+
+div.video>iframe{
+    position:absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:90%;
+}
+
+.daitexto{
+    text-align:justify;
+    font-family:'Bra';
+    color:#a7854e
+}
+
+p{
+    text-indent:30px;
+    line-height:1.5em;
+}
+
+main strong{
+    background-color:#E4D5C0;
+    color:#AF5836;
+    font-weight:bold;
+}
+
+main h2{
+    background-image: linear-gradient(to right,#E4D5C0, transparent);
+    text-indent:8px;
+}
+
+main ul{
+    list-style-type: '\2714\00A0\00A0'
+}
+
+a.externo::after{
+    content: '\00A0\1F517';
+}
+
+a.externo{
+    text-decoration:none;
+    color:#AF5836;
+    font-weight:bold;
+}
+
+a.externo:hover{
+    text-decoration:underline;
+    background-color:#E4D5C0;
+}
+
+footer{
+    background-color:white;
+    padding:7px;
+    margin:4px;
+    border-radius:10px;
+}
+
+footer h2{
+    background-image: linear-gradient(to right,#E4D5C0, transparent);
+    text-indent:8px;
+}
+
+.final{
+    text-align:center;
+}
+
+.marrom{
+    color:#634f2e;
+    font-family:'Bra';
+}
