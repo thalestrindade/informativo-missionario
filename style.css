@@ -59,11 +59,48 @@ main{
     margin:auto;
 }
 
-main img.imagem{
-    display:block;
-    margin:auto;
+section{
+    padding-top:10vh;
+    padding-bottom:10vh;
 }
-    
+
+section#img01{
+    background-image:url(midias/1000.JPG);
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+
+section.thales{
+    padding-left:10px;
+}
+
+section>p.thalestext{
+    background-color:rgba(0, 0, 0, 0.274);
+    color:white;
+    width:350px;
+    line-height:2em;
+    text-align:justify;
+}
+
+section#img02{
+    background-image:url(midias/1000dai.jpeg);
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+section.dai{
+    padding-left: 10px;
+}
+
+section>p.daitexto{
+    color:white;
+    background-color:rgba(0, 0, 0, 0.274);
+    width:340px;
+    line-height:2em;
+    text-align:justify;
+}
 div.video{
     background-color: #AF5836;
     margin:0px -7px 30px -7px;
@@ -78,12 +115,6 @@ div.video>iframe{
     left:5%;
     width:90%;
     height:90%;
-}
-
-.daitexto{
-    text-align:justify;
-    font-family:'Bra';
-    color:#a7854e
 }
 
 p{
